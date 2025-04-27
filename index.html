@@ -3,24 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>RemindMe</title>
   </head>
   <body>
     <h1>Welcome to RemindMe Task Reminder!</h1>
     <form action="">
-      <label for=""
-        >What Task RemindMe Should Remind You About? *
+      <div class="container">
+        <label for=""
+          >What Task <strong>RemindMe</strong> Should Remind You About? *
+        </label>
         <input type="text" id="taksDescription" />
-      </label>
-      <label for="dateTime"
-        >When RemindMe Should Remind You? *
+
+        <label for="dateTime"
+          >When <strong>RemindMe</strong> Should Remind You? *
+        </label>
         <input type="datetime" id="dateTime" />
-      </label>
-      <label for="audioFile"
-        >Upload the Notification Sound (Optional)
-        <input type="file" accept=".mp3" ="audioFile" />
-      </label>
+
+        <label for="audioFile">Upload the Notification Sound (Optional) </label>
+        <input type="file" accept=".mp3" id="audioFile" />
+        <button>All Set RemindMe</button>
+      </div>
     </form>
 
     <script src="script.js"></script>
