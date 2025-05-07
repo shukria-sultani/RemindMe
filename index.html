@@ -8,20 +8,18 @@
   </head>
   <body>
     <h1>Welcome to RemindMe Task Reminder!</h1>
-    <form action="">
+    <form action="" id="userInputs">
       <div class="container">
         <label for=""
           >What Task <strong>RemindMe</strong> Should Remind You About? *
         </label>
-        <input type="text" id="taksDescription" required />
+        <input type="text" id="taskDescription" required />
 
         <label for="dateTime"
           >When <strong>RemindMe</strong> Should Remind You? *
         </label>
         <input type="datetime-local" id="dateTime" required />
 
-        <label for="audioFile">Upload the Notification Sound (Optional) </label>
-        <input type="file" accept=".mp3" id="audioFile" />
         <button>All Set RemindMe</button>
       </div>
     </form>
